@@ -1,0 +1,33 @@
+.book-detail {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+.book-header img {
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.book-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.author,
+.genre {
+  color: #666;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.description {
+  margin-top: 10px;
+  line-height: 1.5;
+}

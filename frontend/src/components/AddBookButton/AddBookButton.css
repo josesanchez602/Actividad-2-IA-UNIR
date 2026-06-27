@@ -1,0 +1,15 @@
+.add-button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 10px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.add-button:hover {
+  background-color: #333;
+}

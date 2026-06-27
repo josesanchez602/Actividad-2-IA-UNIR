@@ -1,0 +1,45 @@
+.checkout-summary {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  height: fit-content;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.buy-button {
+  width: 100%;
+  padding: 10px;
+  background: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.order-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.order-box input {
+  padding: 8px;
+}

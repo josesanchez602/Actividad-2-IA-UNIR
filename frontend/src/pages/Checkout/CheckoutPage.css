@@ -1,0 +1,9 @@
+.checkout-page {
+  padding: 30px;
+}
+
+.checkout-content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
