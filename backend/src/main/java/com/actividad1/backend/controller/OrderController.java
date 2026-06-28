@@ -1,6 +1,6 @@
 package com.actividad1.backend.controller;
 
-
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -37,7 +37,7 @@ public class OrderController {
     // CREATE order
     @PostMapping
     public ResponseEntity<Order> createOrder(@RequestBody Order order) {
-        return ResponseEntity.ok(orderService.createOrder(order));
+        return ResponseEntity.status(201).body(orderService.createOrder(order));
     }
 
     // DELETE order
